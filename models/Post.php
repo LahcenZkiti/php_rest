@@ -6,7 +6,7 @@ class Post{
 
     // Post properties
     public $id;
-    public $sategory_id;
+    public $category_id;
     public $category_name;
     public $title;
     public $body;
@@ -23,7 +23,7 @@ class Post{
         // Create query
         $query = 'SELECT c.name as category_name,
                     p.id, 
-                    p.ctegory_id, 
+                    p.category_id, 
                     p.title, 
                     p.body, 
                     p.created_at
